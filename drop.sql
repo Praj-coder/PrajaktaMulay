@@ -1,0 +1,26 @@
+select 'drop table '|| table_name || ' cascade_constraints;' from user_tables;
+
+drop table COUNTRIES cascade_constraints;
+drop table LOCATIONS cascade_constraints;
+drop table WAREHOUSES cascade_constraints;
+drop table EMPLOYEES cascade_constraints;
+drop table PRODUCT_CATEGORY cascade_constraints;
+drop table PRODUCTS cascade_constraints;
+drop table CUSTOMERS cascade_constraints;
+drop table CONTACTS cascade_constraints;
+drop table ORDERS cascade_constraints;
+drop table ORDER_ITEMS cascade_constraints;
+drop table DEPARTMENT cascade_constraints;
+drop table REGIONS cascade_constraints;
+drop table BKP_COUNTRIES cascade_constraints;
+drop table BKP_LOCATIONS cascade_constraints;
+drop table BKP_WAREHOUSES cascade_constraints;
+drop table BKP_EMPLOYEES cascade_constraints;
+drop table BKP_PRODUCT_CATEGORY cascade_constraints;
+drop table BKP_PRODUCTS cascade_constraints;
+drop table BKP_CUSTOMERS cascade_constraints;
+drop table BKP_CONTACTS cascade_constraints;
+drop table BKP_ORDERS cascade_constraints;
+drop table BKP_ORDER_ITEMS cascade_constraints;
+drop table BKP_DEPARTMENT cascade_constraints;
+drop table BKP_REGIONS cascade_constraints;
